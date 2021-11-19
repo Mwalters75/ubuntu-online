@@ -119,9 +119,9 @@ function runBashCommand(__command){
     }else if(__the_command=="help"){
         writeOutput("\
 mkdir    rmdir   cp      mv      rm\n\
-apt-get  apt     dpkg    su      sudo\n\
+apt-get  apt     dpkg    su      $ sudo\n\
 sh       bash    echo    help    clear\n\
-cd       ls      dir     python3 ")
+cd       ls      dir     python3")
     }else{
         writeOutput(__the_command+": Command not found")
     }
