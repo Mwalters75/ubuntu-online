@@ -2,19 +2,20 @@
 
 Web based Ubuntu 21.10 desktop remake. You can try latest ubuntu edition remake from [here](https://mwalters75.github.io/ubuntu-tour/). On this branch, you can see newest developments!
 
+__REMEMBER!__ This branch is for testing (think of it as a sandbox). When a new Ubuntu release had been made, all changes here will be pushed to main via pull request.
 ## Features
 
 * Multi-window (You can open same application 2 (or more) times)
 * Resizable, draggable windows
 * Changeable wallpapers
-* Similar interface with Gnome (Ubuntu Tour imitate Gnome Interface however never use Gnome code.)
+* Similar interface with Gnome (Ubuntu Tour imitate Gnome Interface however never used Gnome code.)
 * Clone applications
 
-## Why i do?
+## Why I did it?
 
 For introduce the Ubuntu environment' beauty (on web) and for fun. :) I was inspired from [tour.ubuntu.com](https://github.com/canonical-web-and-design/tour.ubuntu.com) (however not used code from this project)
 
-## You can [try it!](https://malisipi.github.io/ubunt[ ] u-tour/)
+## You can [try it!](https://malisipi.github.io/ubuntu-tour/)
 
 ## To-Do List
 
