@@ -81,6 +81,8 @@ function runBashCommand(__command){
         writeOutput("",0);
     }else if(__the_command=="apt-get"||__the_command=="apt"||__the_command=="dpkg"){
         writeOutput("Package manager is busy now.")
+    }else if(__the_command=="$ sudo apt-get update"||__the_command=="$ sudo apt-get upgrade"){
+        writeOutput("[sudo] password for unknown:/nGet:1 https://github.com/Mwalters75/ubuntu-online/archive/refs/heads/main.zip/nHit:2 https://github.com/Mwalters75/ubuntu-online/archive/refs/heads/test-branch.zip")
     }else if(__the_command=="$ sudo"){
         writeOutput("You are already logged in as root user.")
     }else if(__the_command=="sh"||__the_command=="bash"){
