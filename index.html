@@ -51,10 +51,7 @@
         <div class="dock">
             <div id="dock"></div>
             <div class="dock-app-container">
-                <img class="dock-app" onclick="window_create_special(createRandomWindowID(),'apps/filemanager/index.html?open=Trash','Files','icons/Suru/Suru/48x48/apps/filemanager-app.png');" draggable="false" src="icons/Suru/Suru/48x48/places/user-trash.png">
-            </div>
-        </div>
-        <div class="workspaces" hidden><div class="workspace-now"></div></div>
+                <div class="workspaces" hidden><div class="workspace-now"></div></div>
         <div class="app-menu" style="visibility: hidden;">
             <div class="menu-searchbox"><img src="icons/Suru/Suru/scalable/actions/search-symbolic.svg" draggable="false" /><input type="text" placeholder="Write to search" onfocus="this.parentNode.style.border='2px #f7b33f solid'; this.parentNode.style.transform='translate(-1px,-1px)';"  onfocusout="this.parentNode.style.border=''; this.parentNode.style.transform='';this.value='';"/></div>
             <img onclick="showHideAppMenu();" class="app-menu-container-wallpaper" />
@@ -71,6 +68,9 @@
                 <div class="app-menu-app"><img class="app-menu-app-image" onclick="window_create(createRandomWindowID(),'apps/libreoffice/calc/index.html','LibreOffice Calc','icons/Suru/Suru/48x48/apps/libreoffice-calc.png','icons/Suru/Suru/scalable/mimetypes/x-office-spreadsheet-symbolic.svg',2);" draggable="false" src="icons/Suru/Suru/256x256/apps/libreoffice-calc.png"/></div>
                 <div class="app-menu-app"><img class="app-menu-app-image" onclick="window_create(createRandomWindowID(),'https://paint.js.org','Paint - WineHQ','https://paint.js.org/assets/icon.png');" draggable="false" src="https://paint.js.org/assets/icon.png"/></div>
                 <div class="app-menu-app"><img class="app-menu-app-image" onclick="window_create(createRandomWindowID(),'apps/wine/notepad.html','Notepad - WineHQ','icons/Suru/Suru/48x48/apps/wine.png','icons/Suru/Suru/scalable/apps/wine-symbolic.svg',2);" draggable="false" src="icons/Suru/Suru/256x256/apps/wine.png"/></div>
+            </div>
+        </div>
+                <img class="dock-app" onclick="window_create_special(createRandomWindowID(),'apps/filemanager/index.html?open=Trash','Files','icons/Suru/Suru/48x48/apps/filemanager-app.png');" draggable="false" src="icons/Suru/Suru/48x48/places/user-trash.png">
             </div>
         </div>
         <div class="activities" style="visibility: hidden;">
