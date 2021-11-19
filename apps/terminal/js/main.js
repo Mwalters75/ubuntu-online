@@ -81,7 +81,7 @@ function runBashCommand(__command){
         writeOutput("",0);
     }else if(__the_command=="apt-get"||__the_command=="apt"||__the_command=="dpkg"){
         writeOutput("Package manager is busy now.")
-    }else if(__the_command=="su"||__the_command=="sudo"){
+    }else if(__the_command=="$ sudo"){
         writeOutput("You are already logged in as root user.")
     }else if(__the_command=="sh"||__the_command=="bash"){
         writeOutput(__console_info);
